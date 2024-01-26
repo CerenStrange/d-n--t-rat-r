@@ -22,7 +22,7 @@ function Button() {
       <hr />
       <button onClick={()=>setTemperature(temperature +273)}>Kelvin</button>
       <hr />
-      
+      <button onClick={()=>setTemperature(temperature -temperature)}>SIFIRLA</button>
       </>
   )
 }
